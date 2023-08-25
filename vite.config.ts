@@ -11,7 +11,7 @@ export default defineConfig({
       entry: resolve(__dirname, "src/index.ts"),
       name: "ArturComponentLibrary",
       // the name of the output files when the build is run
-      fileName: "art-component-lib",
+      fileName: "art-ui-lib",
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled into your library

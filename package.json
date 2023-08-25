@@ -1,14 +1,14 @@
 {
-  "name": "art-component-lib",
+  "name": "art-ui-lib",
   "version": "0.0.1",
   "type": "module",
   "files": ["dist"],
-  "main": "./dist/art-component-lib.umd.cjs",
-  "module": "./dist/art-component-lib.js",
+  "main": "./dist/art-ui-lib.umd.cjs",
+  "module": "./dist/art-ui-lib.js",
   "exports": {
     ".": {
-      "import": "./dist/art-component-lib.js",
-      "require": "./dist/art-component-lib.umd.cjs"
+      "import": "./dist/art-ui-lib.js",
+      "require": "./dist/art-ui-lib.umd.cjs"
     },
     "./style.css": "./dist/style.css"
   },
