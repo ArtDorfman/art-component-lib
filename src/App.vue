@@ -1,9 +1,9 @@
 <template>
-  <FccButton>
+  <TheButton>
     <template #default>Click me!</template>
-  </FccButton>
+  </TheButton>
 </template>
 
 <script lang="ts" setup>
-import FccButton from './components/FccButton.vue'
+import TheButton from './components/TheButton.vue'
 </script>
